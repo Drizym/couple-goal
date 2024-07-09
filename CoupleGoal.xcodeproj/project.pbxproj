@@ -8,12 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		6A373E6C2C3986DA007E3EFB /* CoupleGoalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E6B2C3986DA007E3EFB /* CoupleGoalApp.swift */; };
-		6A373E6E2C3986DA007E3EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E6D2C3986DA007E3EFB /* ContentView.swift */; };
 		6A373E702C3986DB007E3EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A373E6F2C3986DB007E3EFB /* Assets.xcassets */; };
 		6A373E732C3986DB007E3EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A373E722C3986DB007E3EFB /* Preview Assets.xcassets */; };
 		6A373E7D2C3986DB007E3EFB /* CoupleGoalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E7C2C3986DB007E3EFB /* CoupleGoalTests.swift */; };
 		6A373E872C3986DB007E3EFB /* CoupleGoalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E862C3986DB007E3EFB /* CoupleGoalUITests.swift */; };
 		6A373E892C3986DB007E3EFB /* CoupleGoalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E882C3986DB007E3EFB /* CoupleGoalUITestsLaunchTests.swift */; };
+		6A373EA72C398705007E3EFB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E962C398704007E3EFB /* Message.swift */; };
+		6A373EA82C398705007E3EFB /* SudokuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E972C398704007E3EFB /* SudokuModel.swift */; };
+		6A373EA92C398705007E3EFB /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E992C398704007E3EFB /* ChatViewModel.swift */; };
+		6A373EAA2C398705007E3EFB /* SudokuViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E9A2C398704007E3EFB /* SudokuViewModels.swift */; };
+		6A373EAB2C398705007E3EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E9C2C398704007E3EFB /* AppDelegate.swift */; };
+		6A373EAC2C398705007E3EFB /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E9D2C398704007E3EFB /* ChatView.swift */; };
+		6A373EAD2C398705007E3EFB /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E9E2C398704007E3EFB /* GameDetailView.swift */; };
+		6A373EAE2C398705007E3EFB /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373E9F2C398704007E3EFB /* GamesView.swift */; };
+		6A373EAF2C398705007E3EFB /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373EA02C398704007E3EFB /* MessageBubble.swift */; };
+		6A373EB02C398705007E3EFB /* SudokuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373EA12C398704007E3EFB /* SudokuView.swift */; };
+		6A373EB12C398705007E3EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A373EA32C398705007E3EFB /* ContentView.swift */; };
+		6A373EB22C398705007E3EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A373EA42C398705007E3EFB /* Preview Assets.xcassets */; };
+		6AFAEAAD2C3AA5DB00B2CA64 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6AFAEAAC2C3AA5DB00B2CA64 /* FirebaseAnalytics */; };
+		6AFAEAAF2C3AA5DB00B2CA64 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6AFAEAAE2C3AA5DB00B2CA64 /* FirebaseAuth */; };
+		6AFAEAB12C3AA5DB00B2CA64 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6AFAEAB02C3AA5DB00B2CA64 /* FirebaseFirestore */; };
+		6AFAEAB32C3AA5DB00B2CA64 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 6AFAEAB22C3AA5DB00B2CA64 /* FirebaseMessaging */; };
+		6AFAEAB52C3AA5F900B2CA64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AFAEAB42C3AA5F900B2CA64 /* GoogleService-Info.plist */; };
+		6AFAEAB72C3AAC7F00B2CA64 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAEAB62C3AAC7F00B2CA64 /* AuthViewModel.swift */; };
+		6AFAEAB92C3AAC9C00B2CA64 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAEAB82C3AAC9C00B2CA64 /* AuthView.swift */; };
+		6AFAEABB2C3ABF5800B2CA64 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAEABA2C3ABF5800B2CA64 /* AccountView.swift */; };
+		6AFAEABD2C3AC11900B2CA64 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAEABC2C3AC11900B2CA64 /* ImagePicker.swift */; };
+		6AFAEABF2C3AC1A900B2CA64 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6AFAEABE2C3AC1A900B2CA64 /* FirebaseStorage */; };
+		6AFAEAC12C3AC4BA00B2CA64 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6AFAEAC02C3AC4BA00B2CA64 /* FirebaseFirestoreSwift */; };
+		6AFAEAC32C3AE63800B2CA64 /* FireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFAEAC22C3AE63800B2CA64 /* FireManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +59,6 @@
 /* Begin PBXFileReference section */
 		6A373E682C3986DA007E3EFB /* CoupleGoal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoupleGoal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A373E6B2C3986DA007E3EFB /* CoupleGoalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleGoalApp.swift; sourceTree = "<group>"; };
-		6A373E6D2C3986DA007E3EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A373E6F2C3986DB007E3EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A373E722C3986DB007E3EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A373E782C3986DB007E3EFB /* CoupleGoalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoupleGoalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +66,24 @@
 		6A373E822C3986DB007E3EFB /* CoupleGoalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoupleGoalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A373E862C3986DB007E3EFB /* CoupleGoalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleGoalUITests.swift; sourceTree = "<group>"; };
 		6A373E882C3986DB007E3EFB /* CoupleGoalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleGoalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6A373E962C398704007E3EFB /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6A373E972C398704007E3EFB /* SudokuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudokuModel.swift; sourceTree = "<group>"; };
+		6A373E992C398704007E3EFB /* ChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		6A373E9A2C398704007E3EFB /* SudokuViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudokuViewModels.swift; sourceTree = "<group>"; };
+		6A373E9C2C398704007E3EFB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A373E9D2C398704007E3EFB /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		6A373E9E2C398704007E3EFB /* GameDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		6A373E9F2C398704007E3EFB /* GamesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		6A373EA02C398704007E3EFB /* MessageBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		6A373EA12C398704007E3EFB /* SudokuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudokuView.swift; sourceTree = "<group>"; };
+		6A373EA32C398705007E3EFB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../AppliCouple/AppliCouple/ContentView.swift; sourceTree = "<group>"; };
+		6A373EA42C398705007E3EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AFAEAB42C3AA5F900B2CA64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AFAEAB62C3AAC7F00B2CA64 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		6AFAEAB82C3AAC9C00B2CA64 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		6AFAEABA2C3ABF5800B2CA64 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		6AFAEABC2C3AC11900B2CA64 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6AFAEAC22C3AE63800B2CA64 /* FireManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +91,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFAEAB32C3AA5DB00B2CA64 /* FirebaseMessaging in Frameworks */,
+				6AFAEAAD2C3AA5DB00B2CA64 /* FirebaseAnalytics in Frameworks */,
+				6AFAEAAF2C3AA5DB00B2CA64 /* FirebaseAuth in Frameworks */,
+				6AFAEABF2C3AC1A900B2CA64 /* FirebaseStorage in Frameworks */,
+				6AFAEAB12C3AA5DB00B2CA64 /* FirebaseFirestore in Frameworks */,
+				6AFAEAC12C3AC4BA00B2CA64 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +140,17 @@
 		6A373E6A2C3986DA007E3EFB /* CoupleGoal */ = {
 			isa = PBXGroup;
 			children = (
+				6AFAEAB42C3AA5F900B2CA64 /* GoogleService-Info.plist */,
+				6A373E9C2C398704007E3EFB /* AppDelegate.swift */,
+				6A373EA32C398705007E3EFB /* ContentView.swift */,
+				6A373E982C398704007E3EFB /* Models */,
+				6A373EA52C398705007E3EFB /* Preview Content */,
+				6A373E9B2C398704007E3EFB /* ViewModels */,
+				6A373EA22C398704007E3EFB /* Views */,
 				6A373E6B2C3986DA007E3EFB /* CoupleGoalApp.swift */,
-				6A373E6D2C3986DA007E3EFB /* ContentView.swift */,
 				6A373E6F2C3986DB007E3EFB /* Assets.xcassets */,
 				6A373E712C3986DB007E3EFB /* Preview Content */,
+				6AFAEAC22C3AE63800B2CA64 /* FireManager.swift */,
 			);
 			path = CoupleGoal;
 			sourceTree = "<group>";
@@ -127,6 +180,49 @@
 			path = CoupleGoalUITests;
 			sourceTree = "<group>";
 		};
+		6A373E982C398704007E3EFB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A373E962C398704007E3EFB /* Message.swift */,
+				6A373E972C398704007E3EFB /* SudokuModel.swift */,
+				6AFAEABC2C3AC11900B2CA64 /* ImagePicker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A373E9B2C398704007E3EFB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6A373E992C398704007E3EFB /* ChatViewModel.swift */,
+				6A373E9A2C398704007E3EFB /* SudokuViewModels.swift */,
+				6AFAEAB62C3AAC7F00B2CA64 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6A373EA22C398704007E3EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A373E9D2C398704007E3EFB /* ChatView.swift */,
+				6A373E9E2C398704007E3EFB /* GameDetailView.swift */,
+				6A373E9F2C398704007E3EFB /* GamesView.swift */,
+				6A373EA02C398704007E3EFB /* MessageBubble.swift */,
+				6A373EA12C398704007E3EFB /* SudokuView.swift */,
+				6AFAEAB82C3AAC9C00B2CA64 /* AuthView.swift */,
+				6AFAEABA2C3ABF5800B2CA64 /* AccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A373EA52C398705007E3EFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A373EA42C398705007E3EFB /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../AppliCouple/AppliCouple/Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +239,14 @@
 			dependencies = (
 			);
 			name = CoupleGoal;
+			packageProductDependencies = (
+				6AFAEAAC2C3AA5DB00B2CA64 /* FirebaseAnalytics */,
+				6AFAEAAE2C3AA5DB00B2CA64 /* FirebaseAuth */,
+				6AFAEAB02C3AA5DB00B2CA64 /* FirebaseFirestore */,
+				6AFAEAB22C3AA5DB00B2CA64 /* FirebaseMessaging */,
+				6AFAEABE2C3AC1A900B2CA64 /* FirebaseStorage */,
+				6AFAEAC02C3AC4BA00B2CA64 /* FirebaseFirestoreSwift */,
+			);
 			productName = CoupleGoal;
 			productReference = 6A373E682C3986DA007E3EFB /* CoupleGoal.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +319,9 @@
 				Base,
 			);
 			mainGroup = 6A373E5F2C3986DA007E3EFB;
+			packageReferences = (
+				6AFAEAAB2C3AA5DB00B2CA64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 6A373E692C3986DA007E3EFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +338,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A373EB22C398705007E3EFB /* Preview Assets.xcassets in Resources */,
+				6AFAEAB52C3AA5F900B2CA64 /* GoogleService-Info.plist in Resources */,
 				6A373E732C3986DB007E3EFB /* Preview Assets.xcassets in Resources */,
 				6A373E702C3986DB007E3EFB /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +366,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A373E6E2C3986DA007E3EFB /* ContentView.swift in Sources */,
+				6AFAEAB92C3AAC9C00B2CA64 /* AuthView.swift in Sources */,
+				6A373EA82C398705007E3EFB /* SudokuModel.swift in Sources */,
+				6AFAEAC32C3AE63800B2CA64 /* FireManager.swift in Sources */,
+				6A373EAA2C398705007E3EFB /* SudokuViewModels.swift in Sources */,
+				6A373EAE2C398705007E3EFB /* GamesView.swift in Sources */,
+				6A373EA72C398705007E3EFB /* Message.swift in Sources */,
+				6A373EAC2C398705007E3EFB /* ChatView.swift in Sources */,
+				6A373EAB2C398705007E3EFB /* AppDelegate.swift in Sources */,
+				6A373EAD2C398705007E3EFB /* GameDetailView.swift in Sources */,
+				6A373EA92C398705007E3EFB /* ChatViewModel.swift in Sources */,
+				6AFAEABB2C3ABF5800B2CA64 /* AccountView.swift in Sources */,
+				6A373EB02C398705007E3EFB /* SudokuView.swift in Sources */,
+				6A373EB12C398705007E3EFB /* ContentView.swift in Sources */,
 				6A373E6C2C3986DA007E3EFB /* CoupleGoalApp.swift in Sources */,
+				6AFAEABD2C3AC11900B2CA64 /* ImagePicker.swift in Sources */,
+				6AFAEAB72C3AAC7F00B2CA64 /* AuthViewModel.swift in Sources */,
+				6A373EAF2C398705007E3EFB /* MessageBubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +706,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6AFAEAAB2C3AA5DB00B2CA64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6AFAEAAC2C3AA5DB00B2CA64 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AFAEAAB2C3AA5DB00B2CA64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		6AFAEAAE2C3AA5DB00B2CA64 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AFAEAAB2C3AA5DB00B2CA64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6AFAEAB02C3AA5DB00B2CA64 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AFAEAAB2C3AA5DB00B2CA64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6AFAEAB22C3AA5DB00B2CA64 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AFAEAAB2C3AA5DB00B2CA64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		6AFAEABE2C3AC1A900B2CA64 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AFAEAAB2C3AA5DB00B2CA64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		6AFAEAC02C3AC4BA00B2CA64 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6AFAEAAB2C3AA5DB00B2CA64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6A373E602C3986DA007E3EFB /* Project object */;
 }
